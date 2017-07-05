@@ -1,4 +1,4 @@
-#myPhotos
+#order-now
 
 To Run:
 1. Run npm install

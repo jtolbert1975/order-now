@@ -1,0 +1,284 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Open Sans';
+}
+
+.marg-top{
+      margin-top: 50%;
+}
+
+.mobile {
+  display: block;
+  margin: 160px auto;
+}
+
+.tablet{
+  display: none;
+}
+
+.number-blue{
+
+  color: #00b2ff;
+}
+
+.phone{
+/*  text-align: center;*/
+  /*font-weight: bold;*/
+}
+
+.center{
+    display: flex;
+    /*flex-flow: column;
+    align-items: center;
+    flex: 0 1 auto;
+    width: 100%;
+    margin: 0px auto;*/
+}
+
+
+.no-border{
+  border: none;
+}
+
+.title-sep{
+  margin-top: 26px;
+
+}
+
+.second-line{
+      margin: 0px 14px;
+}
+
+.prepaid-color{
+  /*color: #006186;*/
+/*  color: #4F6186*/
+}
+
+.prepaid-text {
+  margin-top: 15px;
+  color: #0574ac;
+  font-weight: Bold;
+  font-size: 1.30em;
+  max-width: 241px;
+  padding-left: 20px;
+}
+
+.plan-container{
+  max-width: 288px;
+  margin: 0px auto;
+
+}
+
+.selected-plan{
+  font-size: 1.2em;
+  color: grey;
+  opacity: .5;
+  margin-top: 40px;
+}
+
+.plan{
+  font-size: 1.2em;
+}
+
+.plan-margin{
+      margin-left: 5px;
+}
+.plan-price{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contract{
+      margin-top: 30px;
+      font-size: 1.2em;
+}
+
+.contract-line{
+      margin-top: -10px;
+}
+
+.modal-top-marg{
+      margin-top: 38px;
+}
+
+.modal-backdrop {
+   background-color: #0066FF!important;
+   opacity: .9;
+   background-image: url("../img/overlay-img.png") !important;
+   background-repeat: no-repeat;
+}
+
+.modal-dialog-top{
+      margin-top: 50px;
+
+}
+
+.modal-body{
+  margin-top: -24px;
+}
+
+.modal-header{
+  border: none;
+}
+
+.modal-header .close{
+  margin-top: -88px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.mbl-button{
+  margin: 0px 29px auto auto;
+  font-size: 39px;
+  color: #ffffff;
+  opacity: .7;
+}
+
+.col-left{
+  background-color: #e7f8ff;
+  margin-left: 15px;
+}
+
+.agent-container{
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex: 0 1 auto;
+
+}
+
+.agent{
+  border-radius: 75%;
+  width: 75%;
+  height: 173px;
+
+}
+
+.connect-text{
+  font-weight: bold;
+  font-size: 1.1em;
+  width: 200px;
+margin: 0px auto 45px auto;
+
+}
+
+.list-unstyled{
+  padding-left: 26px;
+
+
+}
+
+.list-unstyled li{
+  padding: 5px 0px;
+}
+
+li i{
+  padding-right: 5px;
+  color: #06acd6;
+}
+
+.connect-bullets{
+  font-size: .95em;
+  font-style: italic;
+}
+
+.tv{
+  margin-left: 16px;
+font-size: 26px;
+color: #0574ac;
+}
+
+.wifi{
+  font-size: 26px;
+  color: #0574ac;
+}
+
+.button-row{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex: 1 0 auto;
+  width: 100%;
+
+}
+
+.promo-padding {
+  padding-left: 28px;
+}
+
+.promo-img{
+  display: flex;
+  align-self: center;
+  flex: 0 1 auto;
+  margin: 0px auto;
+
+}
+
+
+@media only screen and (max-width: 767px){
+   .title-sep{
+     max-width: 260px;
+   }
+}
+
+@media only screen and (min-width: 768px){
+  .mobile {
+      display: none;
+    }
+    .tablet{
+      display: block;
+      margin: 201px auto;
+    }
+
+    .modal-dialog{
+      width: 740px;
+    }
+
+    .modal-body{
+      margin-top: -34px;
+    }
+
+    .selected-plan {
+      font-size: .95em;
+      opacity: 1;
+    }
+
+  .title-sep {
+      margin-top: 26px;
+      width: calc(300px + 9vw);
+      margin-left: -7%;
+
+  }
+
+  .plan-margin {
+    margin-left: 42px;
+}
+  .plan{
+    font-size: 1em;
+  }
+
+  .plan-group{
+    margin-top: -50px;
+  }
+
+  .contract{
+    font-size: 1em;
+    margin-left: 56px
+  }
+
+  .close{
+    margin: 0px 20px 0px 0px;
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: 57px;
+
+
+  }
+
+
+
+
+
+}

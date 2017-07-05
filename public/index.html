@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Now</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="row">
+    <div class="text-center mobile">
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mobileOrder">Order Now</button>
+    </div>
+    <div class="text-center tablet">
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tabletOrder">Order Now</button>
+    </div>
+  </div>
+
+  <!--Mobile Modal-->
+  <div class="modal fade" id="mobileOrder" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="row">
+      <div class="col-sm-offset-10">
+         <button type="button" class="close mbl-button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+    </div>
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+     <div class="modal-header no-border modal-top-marg">
+       <h4 class="modal-title text-center" >Call to order and setup service.</h4>
+       <h2 class="modal-title number-blue text-center" id="gridSystemModalLabel">1-888-594-3046</h2>
+       <hr class="title-sep text-center" />
+     </div>
+     <div class="modal-body modal-dialog-top">
+       <div class="row prepaid-color button-row">
+         <div class="text-center promo-padding"><img src="img/promobutton.png" alt="Promotion Available" /></div>
+         <div class="text-center prepaid-text"><p>Get a $400 Visa Prepaid <span class="second-line">Card with this offer!</span> </p>
+
+         </div>
+       </div>
+       <div class="row">
+
+       </div>
+       <div class="fluid-container plan-container">
+
+
+       <div class="row">
+         <div class="col-md-6 col-md-offset-3 selected-plan plan-margin"><p>YOUR SELECTED PLAN</p></div>
+       </div>
+       <div class="row">
+         <div class="col-sm-9 plan-margin">
+           <h4>AT&ampT - U200 TV All included</h4>
+           <div class="row">
+             <div class="col-xs-9 col-sm-6 plan">+ Internet 50 (50 MB /6 MB)</div>
+           </div>
+           <div class="row">
+               <div class="col-xs-4 col-sm-6 plan plan-price">$30/month</div>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-xs-10 plan-margin contract">
+           <p>No Contract</p>
+           <div class="row">
+             <div class="col-xs-12 contract-line"><p>200 TV Channels</p></div>
+           </div>
+           <div class="row">
+             <div class="col-xs-12 contract-line"><p>50 Mbps Internet Download Speed</p></div>
+           </div>
+         </div>
+       </div>
+       </div>
+     </div>
+     <!-- <div class="modal-footer">
+       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-primary">Save changes</button>
+     </div> -->
+   </div><!-- /.modal-content -->
+ </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--Tablet Modal-->
+
+  <div class="modal fade" id="tabletOrder" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="row">
+      <div class="col-sm-offset-10">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times</span></button>
+      </div>
+    </div>
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+
+
+     <div class="row">
+       <div class="col-sm-4 col-left">
+         <div class="agent-container">
+           <img src="img/agent-icon.jpg" alt="Agents Waiting" class="agent" />
+         </div>
+         <p class="connect-text">
+           Connecting services for your home has never been easier!
+         </p>
+         <div class="row">
+           <ul class="list-unstyled">
+             <li><i class="fa fa-check" aria-hidden="true"></i><span class="connect-bullets">We will answer all of your questions</span></li>
+             <li><i class="fa fa-check" aria-hidden="true"></i><span class="connect-bullets">Set up and schedule your service</span></li>
+             <li><i class="fa fa-check" aria-hidden="true"></i><span class="connect-bullets">Receive order details by email</span></li>
+             <li><i class="fa fa-check" aria-hidden="true"></i><span class="connect-bullets">Always Friendly and helpful agents</span></li>
+           </ul>
+         </div>
+       </div>
+       <div class="modal-header col-sm-offset-1 col-sm-5">
+
+         <h4 class="modal-title center" >Call to order and setup service.</h4>
+         <h2 class="modal-title number-blue center" id="gridSystemModalLabel">1-888-594-3046</h2>
+         <hr class="title-sep" />
+       </div>
+       <div class="row">
+         <div class="col-sm-5 modal-body">
+           <div class="row">
+             <div class="col-md-8 col-md-offset-3 selected-plan plan-margin">YOUR SELECTED PLAN</div>
+           </div>
+           <div class="row">
+              <div class="col-sm-2 col-sm-offset-1"><i class="fa fa-television tv" aria-hidden="true"></i></div>
+             <div class="col-sm-2"><i class="fa fa-wifi wifi" aria-hidden="true"></i></div>
+             <div class="col-sm-offset-4 col-sm-3"><img src="img/promo-tablet.png" alt="Promotion Available" /></div>
+           </div>
+           <div class="row">
+             <div class="col-sm-9 plan-margin plan-group">
+               <h5>AT&ampT - U200 TV All included + </h5>
+               <div class="row">
+                 <div class="col-sm-9 plan">Internet 50 (50 MB /6 MB)</div>
+               </div>
+               <div class="row">
+                   <div class="col-sm-9 plan plan-price">$30/month</div>
+               </div>
+           </div>
+           <div class="row">
+             <div class="col-sm-9 contract">
+               <p>No Contract</p>
+               <div class="row">
+                 <div class="col-sm-9 contract-line"><p>200 TV Channels</p></div>
+               </div>
+               <div class="row">
+                 <div class="col-sm-12 contract-line"><p>50 Mbps Internet Download Speed</p></div>
+               </div>
+             </div>
+
+           </div>
+         </div>
+       </div>
+
+     </div>
+
+
+     <!-- <div class="modal-footer">
+       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-primary">Save changes</button>
+     </div> -->
+   </div><!-- /.modal-content -->
+ </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</body>
+
+</html>
